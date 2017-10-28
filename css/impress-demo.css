@@ -910,7 +910,7 @@ a {
     float: left;
     border-radius: 50%;
     width: 230px;
-    margin: 40px;
+    margin: 0 40px 0 40px;
 
     -webkit-box-shadow: 0px 0px 54px -13px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 54px -13px rgba(0, 0, 0, 0.75);
@@ -918,8 +918,8 @@ a {
 }
 
 .init_page {
-    margin: 110px 50px 0 0;
-    font-size: 35px;
+    margin: 60px 50px 0 0;
+    font-size: 30px;
 
 }
 
@@ -934,7 +934,9 @@ a {
 
 #subject {
     font-family: 'vazirb';
-    margin-right: 60px;
+    margin-right: 60px;margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 #logo {
@@ -989,7 +991,7 @@ a {
 
 .angular-logo {
     float: left;
-    margin:50px 0;
+    margin: 50px 0;
     width: 500px;
 }
 
@@ -1028,13 +1030,13 @@ a {
     color: #656565;
     font-size: 20px;
     float: right;
-margin: 30px 0 0 50px;
-    
+    margin: 30px 0 0 50px;
+
 }
 
 .oposit-text {
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-   padding:80px 0 0 0;
+    padding: 80px 0 0 0;
     width: 900px;
     height: 900px;
     background-color: rgba( 58, 58, 58, 0);
@@ -1044,8 +1046,7 @@ margin: 30px 0 0 50px;
 
 }
 
-.back-typescript {
-}
+.back-typescript {}
 
 .typescript {
     width: 1600px;
@@ -1053,26 +1054,30 @@ margin: 30px 0 0 50px;
 }
 
 .type {
-background-color: #000000;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    background-image: linear-gradient(to left, rgba(244, 246, 247, 0.8), rgba(244, 246, 247, 0.94), rgba(244, 246, 247, 0.8)), url("getting-started-with-angular-2-and-typescript-7-638.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
     width: 1000px;
-    height: 565px;
+    height: 600px;
 }
 
 .txt {
-padding: 0;
-    
+    padding: 0;
+
 }
 
 .type-img {
-position: fixed;
+    position: fixed;
     width: 320px;
-margin: 40px 0px 30px 50px;
+    margin: 40px 0px 30px 50px;
 }
 
 .new {
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-   padding:150px 10px 10px 10px;
+    padding: 150px 10px 10px 10px;
     width: 900px;
     height: 900px;
     background-color: rgba( 58, 58, 58, 0);
@@ -1083,8 +1088,8 @@ margin: 40px 0px 30px 50px;
 }
 
 .ang {
-     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-   padding:50px 10px 10px 10px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 50px 10px 10px 10px;
     width: 900px;
     height: 900px;
     background-color: rgba( 58, 58, 58, 0);
@@ -1094,6 +1099,97 @@ margin: 40px 0px 30px 50px;
 
 }
 
-.google {
+.google {}
 
+.oposit-text1 {
+
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 100px 0 0 0;
+    width: 1100px;
+    height: 900px;
+    background-color: rgba( 58, 58, 58, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+
+
+}
+
+.oposit-texte {
+
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 50px 0 0 0;
+    width: 1000px;
+    height: 680px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(244, 246, 247, 0.85), rgba(244, 246, 247, 0.85)), url("1-VvT44eH8rT8P35cKGTxyOw.png");
+    background-size: cover;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+
+
+}
+
+.oposit-textc {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 20px 0 0 0;
+    width: 900px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(244, 246, 247, 0.8), rgba(244, 246, 247, 0.8)), url("react-logo-1000-transparent.png");
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.type2 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    background-image: linear-gradient(to left, rgba(244, 246, 247, 0.6), rgba(244, 246, 247, 0.94), rgba(244, 246, 247, 0.6)), url("getting-started-with-angular-2-and-typescript-7-638.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    width: 1000px;
+    height: 600px;
+}
+
+.oposit-texta {
+
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 50px 0 0 0;
+    width: 1000px;
+    height: 680px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(244, 246, 247, 0.85), rgba(244, 246, 247, 0.85)), url("angular.svg");
+    background-size: cover;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.oposit-textt {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 80px 0 0 0;
+    width: 950px;
+    height: 900px;
+    background-color: rgba( 58, 58, 58, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.oposit-texyt {
+     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding: 0;
+    width: 950px;
+    height: 1000px;
+    background-color: rgba( 58, 58, 58, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
 }
