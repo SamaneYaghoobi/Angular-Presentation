@@ -910,7 +910,7 @@ a {
     float: left;
     border-radius: 50%;
     width: 230px;
-    margin: 0 40px 0 40px;
+    margin: -30px 40px 0 40px;
 
     -webkit-box-shadow: 0px 0px 54px -13px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 54px -13px rgba(0, 0, 0, 0.75);
@@ -1055,7 +1055,7 @@ a {
 
 .type {
      text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-    background-image: linear-gradient(to left, rgba(244, 246, 247, 0.8), rgba(244, 246, 247, 0.94), rgba(244, 246, 247, 0.8)), url("getting-started-with-angular-2-and-typescript-7-638.jpg");
+    background-image: linear-gradient(to left, rgba(244, 246, 247, 0.7), rgba(244, 246, 247, 0.85), rgba(244, 246, 247, 0.7)), url("getting-started-with-angular-2-and-typescript-7-638.jpg");
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
