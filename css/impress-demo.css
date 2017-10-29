@@ -910,7 +910,7 @@ a {
     float: left;
     border-radius: 50%;
     width: 230px;
-    margin: -30px 40px 0 40px;
+    margin: -40px 30px 0 40px;
 
     -webkit-box-shadow: 0px 0px 54px -13px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 54px -13px rgba(0, 0, 0, 0.75);
@@ -918,7 +918,7 @@ a {
 }
 
 .init_page {
-    margin: 60px 50px 0 0;
+    margin: 90px 50px 0 0;
     font-size: 30px;
 
 }
@@ -929,14 +929,14 @@ a {
 
 .details {
     font-size: 25px;
-    line-height: 27px;
+    line-height: 2;
 }
 
 #subject {
     font-family: 'vazirb';
-    margin-right: 60px;margin-bottom: 40px;
+    margin-right: 60px;margin-bottom: 70px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 #logo {
@@ -1089,7 +1089,7 @@ a {
 
 .ang {
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-    padding: 50px 10px 10px 10px;
+    padding: 100px 10px 10px 10px;
     width: 900px;
     height: 900px;
     background-color: rgba( 58, 58, 58, 0);
@@ -1106,7 +1106,7 @@ a {
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     padding: 100px 0 0 0;
     width: 1100px;
-    height: 900px;
+    height: 800px;
     background-color: rgba( 58, 58, 58, 0);
     border: 0px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
@@ -1185,11 +1185,17 @@ a {
 
 .oposit-texyt {
      text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-    padding: 0;
+       padding: 100px 0 0 0;
+
     width: 950px;
     height: 1000px;
     background-color: rgba( 58, 58, 58, 0);
     border: 0px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.details1 {
+     font-size: 25px;
+    line-height: 28px;
 }
